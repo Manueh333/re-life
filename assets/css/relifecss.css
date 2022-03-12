@@ -34,46 +34,14 @@
 
   .isDisabled {
     color: currentColor;
+    pointer-events:none;
     cursor: not-allowed;
     opacity: 0.5;
     text-decoration: none;
     
+    
   }
 
-  /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    display: flex;
-    align-items: center;
-    
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: rgb(43, 43, 59);
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    transition: all 0.75s;
-    padding: 0 18px;
-    background-color: rgb(43, 43, 59);
-    border-radius: 4px;
-    border-width: 4px;
-    transition: opacity 2s linear, margin-top 2s step-start, z-index 2s step-start;
-    display: none;
-    position: relative;
-    
-  }
 
 
     .pagination {
