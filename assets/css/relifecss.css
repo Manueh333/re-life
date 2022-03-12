@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+@font-face {
+    font-family: 'Lettering';
+    src: url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.eot');
+    src: url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.woff2') format('woff2'),
+        url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.woff') format('woff'),
+        url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.ttf') format('truetype'),
+        url('../webfonts/hinted-DelightLetteringScriptDEMO-Regu.svg#DelightLetteringScriptDEMO-Regu') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Pagination links */
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    
+  }
+
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: rgb(43, 43, 59);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    transition: all 0.75s;
+    padding: 0 18px;
+    background-color: rgb(43, 43, 59);
+    border-radius: 4px;
+    border-width: 4px;
+    transition: opacity 2s linear, margin-top 2s step-start, z-index 2s step-start;
+    display: none;
+    position: relative;
+    
+  }
+
+
+    .pagination {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.lettering {
+    font-family: Lettering;
+}
+
+.borde {
+    border: solid 3px #ae38de;
+}
+
+.logoimg {
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 30px;
+    background-color: #3d428a;
+    border: solid 1px #3d428a;
+}
+
+.color_1 {
+    background-color: #ad52c3;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: solid 3px transparent;
+    border-radius: 6px;
+}
+
+.color_2 {
+    background-color: #ae38de;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: solid 3px transparent;
+    border-radius: 6px;
+}
+.color_3 {
+    background-color: #fff02c;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: solid 3px transparent;
+    border-radius: 6px;
+}
+.text_1 {
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+}
+
+.text_2 {
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+}
+.text_3 {
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+}
+
+.colors_container row{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 70%;
+}
+
+.merch_object {
+    background-color: #1d1824;
+    width: 15vw;
+    height: 15vw;
+
+    border: solid 3px transparent;
+    border-radius: 10px;
+    margin: 5px;
+    
+
+}
+
+.merch_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.merch_container .merch_object {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+  }
+
+.merch_image {
+
+    width: 100%;
+    
+  }
+
+  .logo_image {
+
+    max-height: 100%;
+    max-width: 100%;
+    
+  }
+
+  .merch_container_big .merch_object {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1824;
+    width: 80%;
+    height: 300px;
+
+    border: solid 3px transparent;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+  .merch_container_big {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.merch_container_big .row1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+
+}
+.merch_container_big .row2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+
+}
+
+
+
+  .big{
+    background-color: #1d1824;
+    width: 50%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px transparent;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.buy {
+    margin: 0;
+    width: 100%;
+}
+
+.no_style {
+    text-decoration: none !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlogo {
+    width: 75%;
+    
+}
+
+  
+  .collapse-content {
+    width: 100%;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  
+  .collapse a {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.9rem 1.8rem;
+    color: #fff;
+    position: relative;
+  }
+  
+  .collapse a {
+    background: #ad52c3;
+  }
+  
+  .collapse a:before {
+    content: "";
+    border-top: 7px solid #ae38de;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+  }
+  
+  .inner-content {
+    padding: 1.8rem;
+  }
+  
+  .content_accordion {
+    max-height: 0em;
+    transition: 0.3s linear 0s;
+    overflow: auto;
+  }
+  
+  .collapse + .collapse a {
+    border-top: 1px solid #ae38de;
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+  }
+  
+  .collapse:target .content_accordion {
+    max-height: 15em;
+  }
+  
+  .collapse:target a:before {
+    transform: rotate(-90deg);
+  }
+  
+  @media (max-width: 768px) {
+    .collapse-content {
+      width: 70vw;
+      margin: auto;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+  @media (max-width: 425px) {
+    body {
+      line-height: 1.3;
+    }
+    .collapse-content {
+      width: 80vw;
+    }
+    .inner-content {
+      padding: 1.2rem;
+    }
+    .inner-content h3 {
+      margin-bottom: 0.3rem;
+    }
+  }
+  @media (max-width: 320px) {
+    body {
+      line-height: 1.3;
+    }
+    .collapse-content {
+      width: 80vw;
+    }
+    .inner-content {
+      padding: 0.8rem;
+    }
+    .inner-content h3 {
+      margin-bottom: 0.3rem;
+    }
+  }
+  
