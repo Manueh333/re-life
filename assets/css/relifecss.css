@@ -70,12 +70,10 @@
     border: solid 3px #ae38de;
 }
 
-.logoimg {
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 30px;
-    background-color: #3d428a;
-    border: solid 1px #3d428a;
+.logocontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .color_1 {
@@ -342,3 +340,61 @@ a {
     }
   }
   
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(48, 44, 65);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgb(28, 25, 37);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  display: none;
+  overflow: hidden;
+}
+
+.imagetextcontent {
+
+  display:flex;
+  width: 100%;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.imagetextcontent > * {
+  margin: 0;
+
+}
+
+
+
+.imagetexttext {
+ align-self: auto;
+ width: 60%;
+
+}
+.imagetexttext2 {
+  align-self: baseline;
+
+ }
+.imagetextimage {
+  min-width: 10%;
+
+}
