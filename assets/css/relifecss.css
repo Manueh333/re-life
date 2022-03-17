@@ -167,11 +167,9 @@ a {
   }
   
   
- .merch_container_big > .merch_image {
-    width: auto;
-    max-height: 100%;
-    height: 11vw;
-    
+  .merch_container_big .merch_image {
+    max-width: 100%;
+    height: auto;
   }
 
 
