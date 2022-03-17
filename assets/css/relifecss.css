@@ -162,6 +162,7 @@ a {
 .merch_image {
 
     width: 100%;
+    max-height: 100%;
     
   }
 
