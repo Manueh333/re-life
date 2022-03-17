@@ -169,6 +169,7 @@ a {
   
   .merch_container_big .merch_image {
     max-width: 100%;
+    width: auto;
     height: auto;
   }
 
